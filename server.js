@@ -6,13 +6,17 @@ const PORT = process.env.PORT || 3001;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static('public'));
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/pizza-hunt', {
-  useFindAndModify: false,
+
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/social-network-api-nosql', {
   useNewUrlParser: true,
   useUnifiedTopology: true
-});
+}, err => {
+  if (err) throw err;
+  console.log('Connected to MongoDB!')
+}
+
+);
 
 // Use this to log mongo queries being executed!
 mongoose.set('debug', true);
