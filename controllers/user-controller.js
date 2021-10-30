@@ -33,10 +33,9 @@ const UserController = {
   },
 
   // add thought to user
-  createUser({ params, body }, res) {
+  AddUser({ params, body }, res) {
     User.create(body)
             .then(dbUserData => {
-                console.log(dbUserData);
                 res.json(dbUserData);
             })
       .catch(err => res.json(err));
