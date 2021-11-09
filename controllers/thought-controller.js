@@ -41,17 +41,17 @@ const thoughtController = {
           { _id: params.userID },
           { $push: { thoughts: dbThoughtData._id } },
           { new: true, runValidators: true }
-        )
-        console.log(dbThoughtData)
-        res.json(dbThoughtData)
+        ).then(function(data) {
+          console.log('JUST SAVED TO USER!!!',data)
+          res.json(dbThoughtData)
+        })
+        
       })
       .catch(err => res.json(err))
-    console.log(err);
-    res.sendStatus(400);
+  
+    //res.sendStatus(400);
 
-  }
-
-  ,
+  },
 
 
 

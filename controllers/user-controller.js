@@ -33,7 +33,7 @@ const UserController = {
   },
 
   // add thought to user
-  AddUser({ params, body }, res) {
+  AddUser({ body }, res) {
     User.create(body)
             .then(dbUserData => {
                 res.json(dbUserData);

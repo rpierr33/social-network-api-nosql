@@ -25,7 +25,7 @@ const ReactionSchema = new Schema(
   }
 )
   
-const ThouhgtSchema = new Schema(
+const ThoughtSchema = new Schema(
   {
     thoughtText: {
       type: String,
@@ -44,7 +44,7 @@ const ThouhgtSchema = new Schema(
       required: true
     },
     reactions: [
-      reactionSchema
+      ReactionSchema
     ]
   },
 
