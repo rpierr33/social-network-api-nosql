@@ -3,6 +3,12 @@
 ## Description
 an API for a social network that uses mongodb that can handle large amounts of unstructured data. using this app, user information is returned based on input, and subdocument arrays are used to associate replies to a post/thought, as well as the creation and relation of thoughts and reactions via object Ids.
 
+
+![Alt text](https://github.com/rpierr33/social-network-api-nosql/blob/main/img/social-network.png)
+
+![Alt text](https://github.com/rpierr33/social-network-api-nosql/blob/main/img/social-network-2.png)
+
+
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
