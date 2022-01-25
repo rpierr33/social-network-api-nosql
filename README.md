@@ -8,15 +8,17 @@ an API for a social network that uses mongodb that can handle large amounts of u
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technology Used](#technology-used)
+- [Contribtors](#contributors)
 
 ## Installation
-To install this application, clone the code into your terminal for the respective repository. Then, install npm by entering the command ```npm i```  
+To install this application, clone the code into your terminal for the respective repository. Then, install npm by entering the command ```npm i```. Install express and mongoose by entering ```npm i express``` and ```npm i mongoose``` into the command line.  
 
 
 ## Usage
 Run the following commands in the command-line in the root of the folder
 
 1. npm install
+2. use Insomnia to test api using routes (Get, Post, Put, Delete)
 
 ## Technology Used
 •	HTML
@@ -27,4 +29,16 @@ Run the following commands in the command-line in the root of the folder
 •	Mongoose
 •	MongoDB
 
+## Contributors
 
+<a href="https://github.com/rpierr33/social-network-api-nosql/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=rpierr33/react-portfolio" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
+
+## Questions
+My Github username is rpierr33, and can be accessed here https://github.com/rpierr33
+This app is deployed through Heroku and can be accesed here addlink/ (Links to an external site.)
+
+You can reach me at mrralphpierre@gmail.com if you have any additional questions.
